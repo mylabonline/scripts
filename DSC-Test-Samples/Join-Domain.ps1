@@ -1,4 +1,4 @@
-configuration JoinBMSLDomain
+configuration JoinDomain
 { 
 	
 Import-DscResource -Module xDSCDomainjoin 
