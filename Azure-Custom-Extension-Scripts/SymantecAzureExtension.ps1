@@ -3,7 +3,7 @@ $source = 'C:\SymantecEndpointProtectionInstaller'
 If (!(Test-Path -Path $source -PathType Container)) {New-Item -Path $source -ItemType Directory | Out-Null} 
  
 $packages = @( 
-@{title='Symantec Endpoint Protection';url='https://bcoazureautomationdsc.blob.core.windows.net/customscriptfiles/SEP.exe';Arguments=' /s /v"/qn RUNLIVEUPDATE=1 REBOOT=ReallySuppress"';Destination=$source}
+@{title='Symantec Endpoint Protection';url='https://automationdsc.blob.core.windows.net/customscriptfiles/SEP.exe';Arguments=' /s /v"/qn RUNLIVEUPDATE=1 REBOOT=ReallySuppress"';Destination=$source}
 ) 
  
  
