@@ -8,5 +8,5 @@ $ConfigData = @{
 	)
 } 
 
-Start-AzureRmAutomationDscCompilationJob  -ResourceGroupName "AUTOMATION-STG-RG" -AutomationAccountName "BCOPREPRODAUTOMATION" `
--ConfigurationName "BCODSCS_DJ_WU_SEP" -ConfigurationData $ConfigData
+Start-AzureRmAutomationDscCompilationJob  -ResourceGroupName "AUTOMATION-STG-RG" -AutomationAccountName "PREPRODAUTOMATION" `
+-ConfigurationName "DSCS_DJ_WU_SEP" -ConfigurationData $ConfigData
